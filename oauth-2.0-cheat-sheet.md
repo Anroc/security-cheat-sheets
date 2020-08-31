@@ -33,8 +33,8 @@ Imagen Alice wants to visit "cute-cat-pictures.com" on an airport terminal using
 
 **Resources:**
 
-[1] https://tools.ietf.org/html/rfc6749#section-4.1.3
-[2] www.ietf.org/mail-archive/web/oauth/current/msg09490.html
+* [1] https://tools.ietf.org/html/rfc6749#section-4.1.3
+* [2] www.ietf.org/mail-archive/web/oauth/current/msg09490.html
 
 ### Validate the redirect_uri
 
@@ -64,10 +64,10 @@ https://github.com/login/oauth/authorize?client_id=7e0a3cd836d3e544dbd9&redirect
 
 **Resources:**
 
-[1] https://tools.ietf.org/html/rfc6749#section-3.1.2
-[2] http://homakov.blogspot.com/2014/02/how-i-hacked-github-again.html
-[3] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-2.1
-[4] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.1.1
+* [1] https://tools.ietf.org/html/rfc6749#section-3.1.2
+* [2] http://homakov.blogspot.com/2014/02/how-i-hacked-github-again.html
+* [3] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-2.1
+* [4] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.1.1
 
 
 ### Open Redirect Vulnerability
@@ -88,8 +88,8 @@ To prevent your OAuth server to become vulnerable to open redirects,  validate t
 
 **Resources:**
 
-[1] https://tools.ietf.org/html/rfc6749#section-4.1.2.1
-[2] https://owasp.org/www-pdf-archive/20151215-Top_X_OAuth_2_Hacks-asanso.pdf
+* [1] https://tools.ietf.org/html/rfc6749#section-4.1.2.1
+* [2] https://owasp.org/www-pdf-archive/20151215-Top_X_OAuth_2_Hacks-asanso.pdf
 
 ## Client
 
@@ -131,13 +131,13 @@ Further, the access token might be stored in the browser's history. Thus allowin
 
 **Resources:**
 
-[1] https://tools.ietf.org/html/rfc6749#section-1.3.2
-[2] https://oauth.net/2/grant-types/implicit/
-[3] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.1
-[4] https://oauth.net/2/pkce/
-[5] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.1.2
-[6] https://tools.ietf.org/html/rfc7591
-[7] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.3.2
+* [1] https://tools.ietf.org/html/rfc6749#section-1.3.2
+* [2] https://oauth.net/2/grant-types/implicit/
+* [3] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.1
+* [4] https://oauth.net/2/pkce/
+* [5] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.1.2
+* [6] https://tools.ietf.org/html/rfc7591
+* [7] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.3.2
 
 ### Cross-site request forgery (CSRF)
 
@@ -152,8 +152,8 @@ This behavior can lead to CSRF (Cross-site request forgery) where an attacker tr
 
 
 **Resources:**
-[1] http://homakov.blogspot.com/2012/07/saferweb-most-common-oauth2.html
-[2] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.7.1
+* [1] http://homakov.blogspot.com/2012/07/saferweb-most-common-oauth2.html
+* [2] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.7.1
 
 
 ### Bearer token in URL
@@ -171,10 +171,10 @@ Bearer tokens should not be contained in the URL due to many reasons:
 
 **Resources:**
 
-[1] https://thehackernews.com/2013/10/vulnerability-in-facebook-app-allows.html
-[2] https://owasp.org/www-pdf-archive/20151215-Top_X_OAuth_2_Hacks-asanso.pdf
-[3] http://intothesymmetry.blogspot.it/2015/10/on-oauth-token-hijacks-for-fun-and.html
-[4] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.3.2
+* [1] https://thehackernews.com/2013/10/vulnerability-in-facebook-app-allows.html
+* [2] https://owasp.org/www-pdf-archive/20151215-Top_X_OAuth_2_Hacks-asanso.pdf
+* [3] http://intothesymmetry.blogspot.it/2015/10/on-oauth-token-hijacks-for-fun-and.html
+* [4] https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15#section-4.3.2
 
 
 ### The confused deputy - Access Token Injection
@@ -196,9 +196,9 @@ This problem can also be exploited in a CSRF fashion. An attacker could link add
 
 **Resources:**
 
-[1] https://en.wikipedia.org/wiki/Confused_deputy_problem
-[2] https://security.stackexchange.com/questions/81285/oauth-confused-deputy-access-token-verification-state-parameter
-[3] https://dzone.com/articles/google-oauth-and-confused
+* [1] https://en.wikipedia.org/wiki/Confused_deputy_problem
+* [2] https://security.stackexchange.com/questions/81285/oauth-confused-deputy-access-token-verification-state-parameter
+* [3] https://dzone.com/articles/google-oauth-and-confused
 
 ## Future Resources
 
